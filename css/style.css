@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: post;
+    src: url(../fonts/PostNoBillsJaffna-ExtraBold.ttf);
+}
+
+.center {
+    text-align: center;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1110px;
+}
+
+.header-info {
+    display: flex;
+    padding: 14px 0px;
+}
+
+.header-info-2 {
+    display: flex;
+    padding: 14px 0px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info p {
+    color: var(--gray, #969696);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header-info-2 p {
+    color: var(--gray, #969696);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header-info img {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header-info-2 img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header-bcg {
+    background-color: #000000;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-row {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link a {
+    padding: 31px 20px;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link a:hover {
+    background-color: #1F1F1F;
+}
+
+.logo-link h2 {
+    color: #fff;
+    padding: 15px 0px;
+    font-family: post;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.logo-link h2:hover {
+    text-shadow: 1px 1px white;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.nav-bcg {
+    background-color: #0F0F0F;
+}
+
+.menu-btn {
+    display: flex;
+    display: none;
+}
+
+@media(max-width: 1150px) {
+    .header-info-2 {
+        padding-right: 15px;
+    }
+
+    .header-info a {
+        margin-left: 15px;
+    }
+
+    .logo-link h2 {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 700px) {
+    .menu-btn {
+        display: block;
+        margin-right: 15px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+}
+
+@media(max-width:520px) {
+    .header-info-2 {
+        display: none;
+    }
+}
+
+@media(max-width:380px) {
+    .header-info {
+        display: none;
+    }
+}
+
+.main-section {
+    max-width: 1920px;
+    height: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    background: no-repeat url(../image/Rectangle\ 3.png);
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.main-section-heading h1 {
+    color: #fff;
+    text-align: center;
+    font-family: post;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.main-section-heading h2 {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.line-h1 {
+    margin-bottom: 7px;
+    width: 179px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.line-div {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section-heading {
+    /* margin-top: 160px; */
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 93px 68px 94px 68px;
+    max-width: 320px;
+    height: 320px;
+    border: 3px solid #fff;
+}
+
+.main-section-paragraph p {
+    color: #fff;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    max-width: 730px;
+}
+
+.main-section-paragraph {
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 154px; */
+}
+
+.main-section-ingo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-shop-img-row {
+    display: flex;
+}
+
+.mini-shop-img img {
+    padding: 55px 21px;
+    background-color: #191B1C;
+}
+
+.img-1 {
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.img-2 {
+    padding-right: 30px;
+}
+
+.img-3 {
+    padding-right: 50px;
+}
+
+.mini-shop-row {
+    display: flex;
+}
+
+.mini-shop-heading {
+    padding: 93px 0px 50px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.line-2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 110.769px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.line-div-2 {
+    padding-top: 50px;
+}
+
+.product-name {
+    padding-top: 25px;
+    color: var(--white, #FFF);
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.cost {
+    padding-top: ;
+    color: var(--light-gray, #D0D0D0);
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mini-shop-bcg {
+    background-color: #000000;
+}
+
+.shop-2 h3 {
+    margin-top: 484px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.shop-2 p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 12px 28px;
+    border: 2px solid #fff;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    display: inline-block
+}
+
+.shop-2 {
+    width: 883px;
+    height: 730px;
+    background: url(../image/shop-2-bcg.png);
+}
+
+.container-2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1766px;
+}
